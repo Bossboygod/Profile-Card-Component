@@ -1,0 +1,101 @@
+:root {
+    --dark-cyan: sl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayvish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+  }
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+    background-color:hsl(185, 75%, 39%);
+}
+.main{
+    text-align: center;
+    align-items:center;
+}
+.background-image{
+    position: relative;
+    z-index: -1;
+}
+.top{
+    position: absolute;
+    top: -800px;
+    left: -240px;
+}
+.bottom{
+    position: absolute;
+    top: 160px;
+    left: 780px;
+}
+.container{
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+.bg{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile{
+    border-radius: 50%;
+    transform: translateY(-50%);
+    border: 5px solid white;
+}
+.body{
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.head-text{
+    font-size: 26px;
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+    padding: 2%;
+}
+.age{
+    font-weight: 400;
+    color:hsl(0, 0%, 59%) ;
+}
+.london{
+    padding: 4% 0%;
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.num{
+    padding: 10%;
+    font-weight: 700;
+    font-size: 26px;
+    color:hsl(229, 23%, 23%);
+}
+.text{
+    padding: 10%;
+    font-weight: 400;
+    color:hsl(0, 0%, 59%) ;
+}
+.attribution { 
+    font-size: 18px; 
+    text-align: center; 
+    color: white;
+    margin-top: 2%;
+}
+.attribution a {
+     color: black; 
+}
+.attribution a:hover {
+    color: white;
+    cursor: pointer;
+}
+@media only screen and ( min-width: 1000px ) {
+    main .container {
+      max-width: 35rem;
+      max-height: 37.4rem;
+    } 
+  }
